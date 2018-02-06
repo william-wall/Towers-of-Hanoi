@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="524.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controller">
+   <children>
+      <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="527.0" prefWidth="805.0" styleClass="start" stylesheets="@application.css">
+         <children>
+            <Button fx:id="start" layoutX="57.0" layoutY="197.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="57.0" prefWidth="129.0" styleClass="startButton" stylesheets="@application.css" text="Start" />
+            <Label layoutX="257.0" layoutY="67.0" prefHeight="32.0" prefWidth="361.0" text="Designed and Developed by: William Wall" textFill="#edebeb">
+               <font>
+                  <Font name="System Bold Italic" size="18.0" />
+               </font></Label>
+            <Button fx:id="exit" layoutX="57.0" layoutY="350.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="57.0" prefWidth="129.0" styleClass="quitButton" stylesheets="@application.css" text="Quit" />
+            <Button fx:id="classic" layoutX="257.0" layoutY="357.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="70.0" prefWidth="225.0" styleClass="classicButton" stylesheets="@application.css" text="Classic Version">
+               <font>
+                  <Font name="Carnivalee Freakshow" size="26.0" />
+               </font></Button>
+            <Button fx:id="alternative" layoutX="541.0" layoutY="357.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="70.0" prefWidth="232.0" styleClass="alternativeButton" stylesheets="@application.css" text="Alternative Version">
+               <font>
+                  <Font name="Carnivalee Freakshow" size="26.0" />
+               </font></Button>
+            <Button fx:id="load" layoutX="57.0" layoutY="300.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="57.0" prefWidth="129.0" styleClass="startButton" stylesheets="@application.css" text="Load" />
+            <Button fx:id="save" layoutX="57.0" layoutY="247.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="57.0" prefWidth="129.0" styleClass="startButton" stylesheets="@application.css" text="Save" />
+            <Label layoutX="241.0" layoutY="90.0" prefHeight="35.0" prefWidth="211.0" text="Instructions " textFill="#1eff00">
+               <font>
+                  <Font name="Carnivalee Freakshow" size="41.0" />
+               </font>
+            </Label>
+            <Label layoutX="287.0" layoutY="145.0" prefHeight="30.0" prefWidth="508.0" text="Move all the blocks to the right-most tower. " textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="251.0" layoutY="239.0" prefHeight="35.0" prefWidth="211.0" text="Rules" textFill="#1eff00">
+               <font>
+                  <Font name="Carnivalee Freakshow" size="41.0" />
+               </font>
+            </Label>
+            <Label layoutX="266.0" layoutY="160.0" prefHeight="39.0" prefWidth="30.0" text="2)" textFill="#1eff00">
+               <font>
+                  <Font name="Carnivalee Freakshow" size="41.0" />
+               </font>
+            </Label>
+            <Label layoutX="272.0" layoutY="125.0" prefHeight="49.0" prefWidth="30.0" text="1)" textFill="#1eff00">
+               <font>
+                  <Font name="Carnivalee Freakshow" size="41.0" />
+               </font>
+            </Label>
+            <Label layoutX="266.0" layoutY="198.0" prefHeight="49.0" prefWidth="30.0" text="3)" textFill="#1eff00">
+               <font>
+                  <Font name="Carnivalee Freakshow" size="41.0" />
+               </font>
+            </Label>
+            <Label layoutX="287.0" layoutY="179.0" prefHeight="30.0" prefWidth="508.0" text="Click a button, tower or drag block." textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="287.0" layoutY="211.0" prefHeight="30.0" prefWidth="508.0" text="Click the button or tower you want to move to." textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="287.0" layoutY="285.0" prefHeight="30.0" prefWidth="508.0" text="You can only take one brick at a time." textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="287.0" layoutY="315.0" prefHeight="30.0" prefWidth="508.0" text="A block cannot be put on a smaller block." textFill="WHITE">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="272.0" layoutY="276.0" prefHeight="49.0" prefWidth="30.0" text="1)" textFill="#1eff00">
+               <font>
+                  <Font name="Carnivalee Freakshow" size="41.0" />
+               </font>
+            </Label>
+            <Label layoutX="266.0" layoutY="305.0" prefHeight="40.0" prefWidth="30.0" text="2)" textFill="#1eff00">
+               <font>
+                  <Font name="Carnivalee Freakshow" size="41.0" />
+               </font>
+            </Label>
+            <Button fx:id="music" layoutX="657.0" layoutY="68.0" mnemonicParsing="false" onAction="#handleButtonAction" styleClass="on" stylesheets="@application.css" text="On">
+               <font>
+                  <Font name="Cambria" size="15.0" />
+               </font>
+            </Button>
+            <Button fx:id="off" layoutX="712.0" layoutY="68.0" mnemonicParsing="false" onAction="#handleButtonAction" styleClass="off" stylesheets="@application.css" text="Off">
+               <font>
+                  <Font name="Cambria" size="15.0" />
+               </font>
+            </Button>
+            <Label layoutX="677.0" layoutY="32.0" prefHeight="21.0" prefWidth="61.0" text="MUSIC" textFill="WHITE">
+               <font>
+                  <Font name="System Bold Italic" size="19.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+   </children>
+</VBox>

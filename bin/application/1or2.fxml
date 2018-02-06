@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="322.0" prefWidth="600.0" styleClass="menu2" stylesheets="@application.css" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.ControllerAlternative">
+   <children>
+      <Button fx:id="player1" layoutX="265.0" layoutY="80.0" mnemonicParsing="false" onAction="#twoPlayer" styleClass="menu2p" stylesheets="@application.css" text="Start" />
+      <Button fx:id="player2" layoutX="265.0" layoutY="168.0" mnemonicParsing="false" onAction="#twoPlayer" styleClass="menu2p" stylesheets="@application.css" text="Rules" />
+      <Button fx:id="exit2" layoutX="47.0" layoutY="20.0" mnemonicParsing="false" onAction="#twoPlayer" prefHeight="31.0" prefWidth="106.0" styleClass="menu2p" stylesheets="@application.css" text="Exit" />
+      <Button fx:id="finish2" layoutX="479.0" layoutY="20.0" mnemonicParsing="false" onAction="#twoPlayer" prefHeight="31.0" prefWidth="106.0" styleClass="menu2p" stylesheets="@application.css" text="Main " />
+      <Label layoutX="147.0" prefHeight="72.0" prefWidth="332.0" text="2 Player Mode ">
+         <font>
+            <Font name="Carnivalee Freakshow" size="60.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>
